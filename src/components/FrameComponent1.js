@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FrameComponent1.css";
 
 const FrameComponent1 = () => {
@@ -34,11 +35,21 @@ const FrameComponent1 = () => {
           />
         </div>
         <div className="stack">
-          <div className="about">About</div>
-          <div className="features">Features</div>
-          <div className="customers">Customers</div>
-          <div className="updates">Updates</div>
-          <div className="help">Help</div>
+          <Link to={"/"} className="about">
+            About
+          </Link>
+          <Link to={"/"} className="features">
+            Features
+          </Link>
+          <Link to={"/"} className="customers">
+            Customers
+          </Link>
+          <Link to={"/"} className="updates">
+            Updates
+          </Link>
+          <Link to={"/"} className="help">
+            Help
+          </Link>
           <button className="buttons">
             <div className="get-for-free">Get for free</div>
           </button>
