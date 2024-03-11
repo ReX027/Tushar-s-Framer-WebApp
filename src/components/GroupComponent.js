@@ -24,8 +24,9 @@ const GroupComponent = () => {
       <div className="cylinder-1-parent">
         <img className="cylinder-1-icon" alt="" src="/cylinder-1@2x.png" />
       </div>
-
-      <img className="visual-icon" alt="" src="/visual@2x.png" />
+      <div className="visual-icon-parent">
+        <img className="visual-icon" alt="" src="/visual@2x.png" />
+      </div>
 
       <img className="half-torus-1-icon" alt="" src="/halftorus-1@2x.png" />
     </section>

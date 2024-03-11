@@ -130,8 +130,171 @@
   color: var(--color-black);
   font-family: var(--body-s-bold);
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1520px) {
+  .product-image-icon{
+    width:100%;
+  }
+  .torus-1-icon{
+    top:970px;
+    width: 280px;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 598px;
+    left: 1250px;
+    width: 332px;
+    height: 352px;
+  }
   .grid {
     width: 1000px;
   }
 }
+@media screen and (max-width: 1420px) {
+  .torus-1-icon{
+    top:990px;
+    width: 260px;
+    left:-90px;
+  }
+  .pyramid-1-icon {
+    top: 610px;
+    left: 1180px;
+    width: 270px;
+    height: 300px;
+  }
+  .grid {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1332px) {
+  .product-image-icon{
+    width:98%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:960px;
+    width: 260px;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 645px;
+    left: 1085px;
+    width: 270px;
+    height: 300px;
+  }
+  .grid {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .product-image-icon{
+    width:105%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:960px;
+    width: 260px;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 655px;
+    left: 1040px;
+    width: 270px;
+    height: 300px;
+  }
+  .grid {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .product-image-icon{
+    width:105%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:960px;
+    width: 260px;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 665px;
+    left: 980px;
+    width: 270px;
+    height: 300px;
+  }
+  .grid {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .product-image-icon{
+    width:105%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:940px;
+    width: 200px;
+    object-fit:contain;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 685px;
+    left: 940px;
+    width: 200px;
+    object-fit:contain;
+    height: 300px;
+  }
+  .grid {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .product-image-icon{
+    width:105%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:940px;
+    width: 200px;
+    object-fit:contain;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 695px;
+    left: 870px;
+    width: 200px;
+    object-fit:contain;
+    height: 300px;
+  }
+  .grid {
+    width: 950px;
+    gap:8px;
+  }
+}
+@media screen and (max-width: 980px) {
+ 
+  .product-image-icon{
+    width:105%;
+    object-fit: contain;
+  }
+  .torus-1-icon{
+    top:940px;
+    width: 200px;
+    object-fit:contain;
+    left:-70px;
+  }
+  .pyramid-1-icon {
+    top: 695px;
+    left: 870px;
+    width: 200px;
+    object-fit:contain;
+    height: 300px;
+  }
+  .grid {
+    width: 950px;
+    gap:8px;
+    /* border:2px solid red; */
+  }
+}
+
+
+

@@ -124,17 +124,19 @@
 }
 .emojistar-1-icon,
 .helix2-1-icon {
-  position: absolute;
-  top: -5px;
-  left: -20px;
+  position: relative;
   width: 362px;
   height: 362px;
   object-fit: cover;
   z-index: 1;
 }
+.emojistar-1-icon{
+  top: 5px;
+  right: 430px;
+}
 .helix2-1-icon {
   top: 113px;
-  left: 1200px;
+  left: 400px;
   width: 363px;
   height: 363px;
 }
@@ -151,6 +153,34 @@
   color: var(--color-midnightblue);
   font-family: var(--h2);
 }
+@media screen and (max-width:1470px) {
+  .emojistar-1-icon{
+    right:380px;
+  }
+ .helix2-1-icon{
+  left:350px;
+ }
+  
+}
+@media screen and (max-width:1332px) {
+  .emojistar-1-icon{
+    right:315px;
+  }
+ .helix2-1-icon{
+  left:300px;
+ }
+  
+}
+@media screen and (max-width:1122px) {
+  .emojistar-1-icon{
+    right:215px;
+  }
+ .helix2-1-icon{
+  left:200px;
+ }
+  
+}
+
 @media screen and (max-width: 750px) {
   .h26signup {
     font-size: var(--font-size-24xl);

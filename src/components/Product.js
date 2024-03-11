@@ -24,6 +24,7 @@ const Product = () => {
           alt=""
           src="/product-image@2x.png"
         />
+
         <div className="grid">
           <EllipseAvatar
             icons="/icons-2.svg"
@@ -54,8 +55,12 @@ const Product = () => {
           />
         </div>
       </div>
-      <img className="torus-1-icon" alt="" src="/torus-1@2x.png" />
-      <img className="pyramid-1-icon" alt="" src="/pyramid-1@2x.png" />
+      <div className="torus-1-icon-parent">
+        <img className="torus-1-icon" alt="" src="/torus-1@2x.png" />
+      </div>
+      <div className="pyramid-1-icon-parent">
+        <img className="pyramid-1-icon" alt="" src="/pyramid-1@2x.png" />
+      </div>
     </div>
   );
 };

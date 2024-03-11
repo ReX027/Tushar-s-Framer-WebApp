@@ -121,24 +121,25 @@
   z-index: 1;
   font-size: var(--body-bold-size);
 }
-.cylinder-1-icon,
-.visual-icon {
+.visual-icon-parent{
+  position:absolute;
+  top:0px;
+  right:50px;
+  /* border:2px solid red; */
+  width: 668px;
+  height: 658px;
+}
+
+.cylinder-1-icon{
   position: absolute;
   top: 0;
   left: 0;
   width: 216px;
   height: 197px;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 2;
 }
-.visual-icon {
-  top: 11px;
-  left: 102px;
-  width: 648px;
-  height: 648px;
-  object-fit: contain;
-  z-index: 3;
-}
+
 .cylinder-1-parent {
   position: absolute;
   top: 9px;
@@ -148,8 +149,7 @@
 }
 
 .visual-icon{
-  left: 885px;
-  width:700px;
+  width:100%;
 }
 .half-torus-1-icon {
   position: absolute;
@@ -171,6 +171,20 @@
   font-family: var(--body-s);
 }
 
+@media screen and (max-width: 1270px){
+  .visual-icon-parent{
+    position:absolute;
+    top:30px;
+    right:10px;
+    /* border:2px solid red; */
+    width: 568px;
+  }
+}
+@media screen and (max-width:1182px){
+  .visual-icon-parent{
+    right:-150px;
+  }
+}
 @media screen and (max-width: 750px) {
   .h1 {
     font-size: var(--font-size-26xl);
